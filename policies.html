@@ -1,14 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Policies</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+  background-color: #000;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.navbar-link {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+h1 {
+  padding-top: 2%;
+  padding-left: 2%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+        
+
+        .navbar-link:hover {
+            color: #999;
+        }
+
+        h1 {
+            margin-top: 80px;
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 30px;
+            color: #333333;
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .sub-bullets {
+            list-style-type: disc;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+        }
+
+        .details {
+            font-size: 14px;
+            color: #666666;
+            margin-top: 10px;
+        }
+
+        .heading-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+            animation: fade-in 1s;
+        }
+
+        .heading {
+            color: #333;
+            font-weight: 400;
+            font-size: 36px;
+            animation: slide-up 1s;
+        }
+    </style>
 </head>
+
 <body>
+    <div class="navbar">
+        <a class="navbar-link" href="index.html">Home</a>
+        <a class="navbar-link" href="contact.html">Contact</a>
+    </div>
+    <center>
+        <h1>List of Policies</h1>
+    </center>
     
+    <ul>
+        <li>
+            <strong>College Process Simplification</strong>
+            <ul class="sub-bullets">
+                <li>Create short graphics explaining common college application items such as the Common App,
+                    QuestBridge, EA ED and REA.</li>
+                <li>Provide guidance on submitting recommendation letters and adding colleges to Naviance.</li>
+                <li>Assist with completing FAFSA and other financial aid applications.</li>
+            </ul>
+            <p class="details">We aim to simplify the college application process by providing clear and concise
+                information to all students.</p>
+        </li>
+
+        <li>
+            <strong>Google Calendar with Important Dates</strong>
+            <p class="details">We will create a shared Google calendar with deadlines for scholarships, colleges, and
+                events. This will help students stay organized and informed.</p>
+        </li>
+
+        <li>
+            <strong>Morning Announcements</strong>
+            <ul class="sub-bullets">
+                <li>Open morning announcer positions to non-SU seniors, allowing more students to participate.</li>
+                <li>Continue the tradition of hearing friends' voices over the loudspeakers every morning.</li>
+            </ul>
+            <p class="details">We believe in fostering a sense of community through inclusive morning announcements.</p>
+        </li>
+
+        <li>
+            <strong>Prom Ticket Thermometer</strong>
+            <p class="details">We will create a webpage on our website that shows the current estimate of the prom
+                ticket price. The thermometer will update as we have fundraisers, reflecting the progress towards the
+                final ticket price.</p>
+        </li>
+
+        <li>
+            <strong>Decorating the Mnemonic Cube on Stage</strong>
+            <ul class="sub-bullets">
+                <li>Make the decoration of the class mnemonic cube a class-wide decision.</li>
+                <li>Invite seniors on stage to fill the mnemonic cube, creating a memorable tradition for the Class of
+                    '24.</li>
+            </ul>
+            <p class="details">We want to bring back the significance of the mnemonic cube and engage seniors in its
+                decoration.</p>
+        </li>
+
+        <li>
+            <strong>Stuy Schedule App/Escalator Status</strong>
+            <p class="details">We will work on maintaining and improving the Stuy Schedule App, including features like
+                a live escalator status. Additionally, we aim to collaborate with today.stuysu.org to enhance the
+                overall student experience.</p>
+        </li>
+
+        <li>
+            <strong>StuyCompare.Live</strong>
+            <p class="details">We will continue to develop StuyCompare.Live to facilitate schedule sharing and help
+                students find others in their classes. Our goal is to provide a seamless and efficient platform for
+                student interactions.</p>
+        </li>
+
+        <li>
+            <strong>Grad Package Options</strong>
+            <ul class="sub-bullets">
+                <li>Offer the option to purchase the Senior Grad Package without the cap and gown for those who don't
+                    need or want it.</li>
+                <li>Introduce more varieties of merch, such as bracelets and beanies, to enhance the Class of '24
+                    merchandise options.</li>
+            </ul>
+            <p class="details">We want to provide flexibility and a wider range of choices in the Senior Grad Package.
+            </p>
+        </li>
+
+        <li>
+            <strong>Paint the Senior Bar</strong>
+            <p class="details">We propose repainting the Senior Bar as a way for the Class of '24 to leave a lasting
+                mark on the school and showcase our class spirit.</p>
+        </li>
+
+        <li>
+            <strong>Book Drive</strong>
+            <ul class="sub-bullets">
+                <li>Organize a book drive where people can donate their old books.</li>
+                <li>All remaining books at the end of the fundraiser will be donated to libraries and children's
+                    shelters.</li>
+            </ul>
+            <p class="details">We aim to promote literacy and support local communities through the book drive
+                initiative.</p>
+        </li>
+
+        <li>
+            <strong>Online Events</strong>
+            <ul class="sub-bullets">
+                <li>Continue hosting online events such as game pigeon tournaments and movie nights to provide
+                    opportunities for seniors to destress and connect.</li>
+            </ul>
+            <p class="details">We believe in the value of online events and their positive impact on student well-being.
+            </p>
+        </li>
+
+        <li>
+            <strong>Streamlined Prom Ticket Buying Process</strong>
+            <p class="details">We will work on simplifying and improving the process of purchasing prom tickets to
+                ensure a smooth and hassle-free experience for all seniors.</p>
+        </li>
+
+        <li>
+            <strong>Improved Collaboration with the Indicator</strong>
+            <p class="details">We will establish a better relationship with the Stuyvesant Indicator, working together
+                to promote Senior Spirit Days and other important initiatives. Together, we can enhance the student
+                experience and school spirit.</p>
+        </li>
+
+        <li>
+            <strong>Yearbook Theme</strong>
+            <ul class="sub-bullets">
+                <li>If elected, the yearbook theme will be Taylor Swift-themed.</li>
+                <li>For those who may not be fans of Taylor Swift, we will ensure alternative options and themes for the
+                    yearbook.</li>
+            </ul>
+            <p class="details">We want to create a memorable and inclusive yearbook experience for all seniors.</p>
+        </li>
+    </ul>
 </body>
+
 </html>
